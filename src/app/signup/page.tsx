@@ -192,3 +192,7 @@ const Input: React.FC<InputProps> = ({
     </div>
   );
 };
+
+function validate() {
+  throw new Error("Function not implemented.");
+}
